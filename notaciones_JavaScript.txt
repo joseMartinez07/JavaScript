@@ -1,0 +1,33 @@
+/* JAVASCRIPT */
+-------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
+-Este lenguaja trabaja 100% a trabajar de forma web
+
+-trabaja de forma dinamica
+es un programa que no necita colpilacion para poder trabajar en el, es un rumtime
+
+-esta orientada a objetos
+se crea un solo objeto que sera el padre el cual se utilizara para crear otros componenetes
+como el usuario se crea un solo formato para luego reutilizarlo para otros componenstes
+es la misma programacion que usa Java
+
+-debilmente tipado
+esta es una caracteristica que permite al prgramador escribir deforma no rigida el codigo
+y javascript lo interpretara como ejemplo tenemos
+
+4 + "7"; // 47
+4 * "7"; // 28
+2 + true; // 3
+false - 3; // -3
+
+--Forwards
+ser compatible con versiones futuras significa que
+incluir una adicion al lenguaje en un programa no causaria 
+que se rompa si se ejecuta en un motor JS anterior.JS 
+no es compatible con versiones futuras.
+
+--JS ES BACKWARDS COMPATIBLE
+la compatibilidad con versiones anteriores
+significa que cuando se acepta con JS valido,
+no habra un cambio futuro que haga que el codigo deje de funcionar. 
+
