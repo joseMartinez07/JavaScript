@@ -31,3 +31,22 @@ la compatibilidad con versiones anteriores
 significa que cuando se acepta con JS valido,
 no habra un cambio futuro que haga que el codigo deje de funcionar. 
 
+--CLASE 2 --
+
+WebAssembly: lenguaje que se usa para crear aplicaciones web sin html ni css ni js
+
+-desarrollo web
+en el desarrollo web se tiene framword especificos que ayudan en la contruccion estructural
+para hacer productos web mas robustos entre estos estan
+--Angular.js
+--vue.js
+--react.js
+--node.js: para trabajar con backend y frontend y se puede trabajar con IOT
+
+
+
+
+
+
+
+
