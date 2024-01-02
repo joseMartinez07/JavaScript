@@ -1,6 +1,6 @@
 /* JAVASCRIPT */
--------------------------------------------------------------------------------
--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------
 -Este lenguaja trabaja 100% a trabajar de forma web
 
 -trabaja de forma dinamica
@@ -29,9 +29,11 @@ no es compatible con versiones futuras.
 --JS ES BACKWARDS COMPATIBLE
 la compatibilidad con versiones anteriores
 significa que cuando se acepta con JS valido,
-no habra un cambio futuro que haga que el codigo deje de funcionar. 
+no habra un cambio futuro que haga que el codigo deje de funcionar.
 
---CLASE 2 --
+
+--------------------------------------------------------------------------------------------------------------------------
+--CLASE 2 ----------------------------------------------------------------------------------------------------------------
 
 WebAssembly: lenguaje que se usa para crear aplicaciones web sin html ni css ni js
 
@@ -43,7 +45,8 @@ para hacer productos web mas robustos entre estos estan
 --react.js
 --node.js: para trabajar con backend y frontend y se puede trabajar con IOT
 
---CLASE 3 --
+--------------------------------------------------------------------------------------------------------------------------
+--CLASE 3 ----------------------------------------------------------------------------------------------------------------
 --Elementos de lenguje de programacion--
    datos que ese guardan en memoria
    tareas(funciones) que se hace con la data
@@ -73,6 +76,31 @@ array [1,2,3,5] este es un un arreglo
 objeto {} este es un objeto de tipo objeto
 
 -- con la palabra recervada typeof puedo saber que tipo de variable
+
+--------------------------------------------------------------------------------------------------------------------------
+--clase 4 ¿Qué es una variable?-------------------------------------------------------------------------------------------
+
+ -variable: representacion de un lugar en memoria parpoder guardar algun valor siendo este de diferentes tipos
+ -JavaScrip: tine varias palabras reservadas para identivicar un valor como variable entre estas esta var, let, const
+	     cada una tiene sus diferencias
+	-var: es la reprecentación dondede se guadan valores(puede ser de cualquier tipo)
+
+		-sintaxis de la variable
+			var nombre_de_la_variable = valor_a_guardar;
+
+		-sintaxis de tipo objeto array
+			var nombre_del_array = ["valor1","valor2","valo3"]
+
+		-sintaxis de tipo objeto dicionario
+			var nombre_del_objeto = {
+				nombre:"julian",
+				apellidos:"Camargo"
+				edad: 26
+			}
+
+
+	-let:
+	-const:
 
 
 
