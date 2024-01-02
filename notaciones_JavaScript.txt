@@ -43,6 +43,37 @@ para hacer productos web mas robustos entre estos estan
 --react.js
 --node.js: para trabajar con backend y frontend y se puede trabajar con IOT
 
+--CLASE 3 --
+--Elementos de lenguje de programacion--
+   datos que ese guardan en memoria
+   tareas(funciones) que se hace con la data
+
+nota: (trabajare con visual studio code) se puede trabajar con atom
+
+en la carpeta try se encontrarar los ejercicios relaizados de este cuerso desde cero 
+para este primera clase comensaremos con los tipos de valores 
+
+--number
+40, 10, 20
+
+--string
+"Jose Daniel Martínez Cáceres"
+"esta es una cadena un string"
+
+--booleano
+true
+falce 
+
+--valores vacios: con valores recervados par acuando hay un valor faltante 
+null 	
+undefined
+
+--valores (no primitivos o objetos):
+array [1,2,3,5] este es un un arreglo 
+objeto {} este es un objeto de tipo objeto
+
+-- con la palabra recervada typeof puedo saber que tipo de variable
+
 
 
 
