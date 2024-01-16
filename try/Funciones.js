@@ -16,3 +16,10 @@ function saludoEstudiantes(estudiantes){
 }
 
 saludoEstudiantes("Diego"); // en esta linea se llama la función 
+
+function suma(a,b){
+    var resultado = a+b;
+    return resultado;
+}
+
+suma(3,4);

@@ -104,10 +104,75 @@ objeto {} este es un objeto de tipo objeto
 --------------------------------------------------------------------------------------------------------------------------
 --Clase 5 Qué son las funciones en JavaScript-----------------------------------------------------------------------------
 
+nota:las funciones son un conjunto de sentencias, estas se definen en 2 Declarativas y Expresión
+
+//Declarativas
+
+function nombre_funci (){
+	return 3;
+}
+
+--para llamar una funcion se puede simplemente colocar el nombre de la funcion
+
+monbre_funci();
 
 
 
+// Expresión o anonimas
 
+//en los () van los parametros estos son valores que es les envia a la funcion
+
+var otramifuncion = function(){
+ return a+b;   
+}
+
+//de igual manera para llamar a una funcion de expresion se coloca el el nombre
+
+otramifuncion()
+
+//EJERCICIOS CON LA CONSOLA DEL NAVEGADOR
+
+function saludoEstudiantes(estudiantes){
+    console.log(`Hola ${estudiantes}`); // esto concatena lo que tenga la variable estudiande con hola 
+}
+
+saludoEstudiantes("Diego"); // en esta linea se llama la función 
+
+
+function suma(a,b){
+    var resultado = a+b;
+    return resultado;
+}
+
+suma(3,4);
+
+--------------------------------------------------------------------------------------------------------------------------
+--Clase 6 Scope-----------------------------------------------------------------------------------------------------------
+
+¿qué es el Scope?
+--es el alcance que tienen las variables, esto depende de donde declares e inicialices una variable y
+--de si se va a tener acceso o no, se tiene dos tipos de Scope.
+
+--en este Scope existen todas las variables,todas las variaciones y funciones que se tengan, cuando se 
+--inicializa una funición en esta se crea un Scope local y solo lo que este dentro de la funcion va a 
+--tener acceso así mismo, pero si tengo una variable inicializada y decalrada en el Scope Global dentro
+--de un Scope Local esta pueden entrar dentro del local, ahora todo lo que este en gloabal no puedo 
+--acceder a lo local. 
+
+// ejemplo de Scope Global y local
+
+var miNombre = "Jose";
+
+function nombre(){
+    var apellido = "Caceres"
+    console.log(miNombre +' '+ apellido);
+}
+
+nombre(); // esta linea permite llamar desde el Scope global la funcion nombre
+
+miNombre; // llama la variable que esta en el Scope global
+
+apellido; // ESTO LLAMA LA VARIABLE DESDE GLOBAL ESTANDO EN LOCAL ESTO NO ES PERMITIDO
 
 
 
