@@ -204,6 +204,32 @@ function hey(){// declarar una funcion
 
 var miNombre = "Jose Daniel";
 
-//nota buena practica: las funciones siempres deben estar al inicio del codigo 
+//nota buena practica: las funciones siempres deben estar al inicio del codigo
 
+--------------------------------------------------------------------------------------------------------------------------
+--Clase 8 Coerción-----------------------------------------------------------------------------------------------------------
+
+existen 2 tipos de Coerciónes implicitas y explicitas
+
+//coerciones implicitas: cocuren cuando el lenguaje ayuda y cambia un tipo de valor a otro tipo de valor 
+//coercion significa :la forma en que se puede cambiar un tipo de valor a otro tipo de valor
+
+//coerciones explicitas: es cuando nosotros obligamos a que un valor de un tipo cambie a otro valor de otro tipo si necesitamos
+// este fuera de un valor distinto
+
+// para conprovar el tipo de variable se puede hacer esto
+var a = 4 + "7"; //coercion implicita
+typeof a; // su valor va hacer un string
+
+// en esta el lenguaje interpreta que lo que queriamos decir
+// es que el 7 es un numero y no un string
+var b = 4 * "7"; //coercion implicita
+typeof b; // su valor va hacer un numero
+
+// ahora se vera la coercion explicita de esta manera tenemos el ejemplo 
+var c = 20;
+var d = c + "";
+var coer = String(c); // con esta linea se pretende obligar a la variable c a cambiar de num a string
+// esto tambien se puede hacer para otros tipos de valores
+var coer2 = Number(coer);
 
