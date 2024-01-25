@@ -281,3 +281,8 @@ Simbolo	Descripcion
 !	NOT niega un valor
 &&	AND
 ||	OR
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
+--------------------------------------------------------------------------------------------------------------------------
+--Clase 11 Condicionales: If, Else, else if-------------------------------------------------------------------------------
