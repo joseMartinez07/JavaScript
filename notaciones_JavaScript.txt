@@ -207,7 +207,7 @@ var miNombre = "Jose Daniel";
 //nota buena practica: las funciones siempres deben estar al inicio del codigo
 
 --------------------------------------------------------------------------------------------------------------------------
---Clase 8 Coerción-----------------------------------------------------------------------------------------------------------
+--Clase 8 Coerción--------------------------------------------------------------------------------------------------------
 
 existen 2 tipos de Coerciónes implicitas y explicitas
 
@@ -233,3 +233,22 @@ var coer = String(c); // con esta linea se pretende obligar a la variable c a ca
 // esto tambien se puede hacer para otros tipos de valores
 var coer2 = Number(coer);
 
+--------------------------------------------------------------------------------------------------------------------------
+--Clase 9 Valores: Truthy y Falsy-----------------------------------------------------------------------------------------
+
+¿que valores son falsos y que valores son verdaderos?
+
+//Ejemplos en los que Boolean devuelve Falso:
+Boolean(0); //false
+Boolean(null); //false
+Boolean(NaN); //false
+Boolean(undefined); //false
+Boolean(false); //false
+Boolean(""); //false
+
+//Ejemplos en los que Boolean devuelve verdadero:
+Boolean(1); //true para 1 o cualquier número diferente de cero (0)
+Boolean("a"); //true para cualquier caracter o espacio en blanco en el string
+Boolean([]); //true aunque el array esté vacío
+Boolean({}); //true aunque el objeto esté vacío
+Boolean(function(){}); //Cualquier función es verdadera también
